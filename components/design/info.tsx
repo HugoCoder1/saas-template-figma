@@ -22,7 +22,7 @@ export default function Info() {
     },
   ];
   return (
-    <section className="mt-20 flex justify-between max-w-[1070px] min-h-[208px] h-auto">
+    <section className="mt-20 flex flex-col md:flex-row items-center md:items-start justify-between max-w-[1070px] min-h-[208px] h-auto">
       {item.map((item, index) => (
         <div
           key={index}
@@ -34,12 +34,12 @@ export default function Info() {
               alt="image"
               className="w-[151px] h-[97px] opacity-100"
             />
-            <p className="h-[36px] font-bold text-[24px] text-[#19191B] leading-[36px] tracking-[-0.75px]">
+            <p className="h-[36px] font-bold text-[28px] md:text-[24px] text-[#19191B] leading-[24px] lg:leading-[36px] tracking-[-0.75px]">
               {item.title}
             </p>
           </div>
 
-          <p className="w-[307px] h-auto min-h-[48px] mulish font-normal text-[1rem] text-center leading-[24px] tracking-[-0.5px] text-[#696971]/100">
+          <p className="w-[307px] h-auto lg:min-h-[48px] mulish font-normal  md:text-[1rem] text-center leading-[18px]  lg:leading-[24px] tracking-[-0.5px] text-[#696971]/100">
             {item.content}
           </p>
         </div>

@@ -5,9 +5,9 @@ import CardpricingPremium from "./card-pricing-premium";
 
 export default function Pricing() {
   return (
-    <div className="mt-20 max-w-[1111px] min-h-[695px] h-auto">
-      <div className="flex items-center min-h-[140px] gap-x-[242px] overflow-hidden">
-        <p className="w-[523px] min-h-[140px] h-auto text-[60px] leading-[70px] tracking-[-1.88px] text-[#19191B]/100 font-bold">
+    <div className="mt-10 md:mt-20 max-w-[1111px] lg:min-h-[695px] h-auto px-3 lg:px-0">
+      <div className="flex flex-col md:flex-row md:items-center min-h-[140px] gap-[8px]  lg:gap-[242px] overflow-hidden">
+        <p className="w-[523px] lg:min-h-[140px] h-auto text-[26px] lg:text-[60px] leading-[70px] tracking-[-1.88px] text-[#19191B]/100 font-bold">
           Get the right plan for future product.
         </p>
         <div className="flex items-center w-[346px] h-[65px] justify-around overflow-hidden bg-[#F7F7FB] rounded-[10px] border border-[#F7F7FB]">
@@ -19,7 +19,7 @@ export default function Pricing() {
           </span>
         </div>
       </div>
-      <div className="flex flex-col gap-y-10 md:gap-y-0 md:flex-row justify-around items-center mt-16">
+      <div className="flex flex-col gap-y-10 md:gap-y-10 lg:gap-y-0 md:flex-row flex-wrap justify-around items-center mt-16">
         <Cardpricing
           cardcolor="#F8F8F8"
           buttoncolor=""

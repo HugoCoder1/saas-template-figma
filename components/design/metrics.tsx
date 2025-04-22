@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Metrics() {
   return (
-    <div className="mt-20 flex justify-between items-center max-w-[967.37px] min-h-[474px]">
-      <div className="flex flex-col gap-y-[30px] w-[556px] max-h-[199px] my-auto">
+    <div className="mt-10 lg:mt-20 flex flex-col md:flex-row gap-y-[42px] md:gap-y-[0px] md:justify-between md:items-center md:max-w-[967.37px] md:min-h-[474px] px-2 lg:px-0">
+      <div className="flex flex-col gap-y-[22px] md:gap-y-[30px] w-[556px] max-h-[199px] my-auto">
         <p className="h-[57px] leading-[57px] font-bold tracking-[-1.56px] text-[50px] text-[#19191B]/100">
           In-depth metrics
         </p>
@@ -18,7 +18,7 @@ export default function Metrics() {
       <img
         src="/Content Image.png"
         alt="Content Image"
-        className="w-[346.37px] h-[474px]"
+        className="w-[400px] md:w-[346.37px] h-[474px] "
       />
     </div>
   );
